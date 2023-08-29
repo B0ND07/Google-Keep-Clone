@@ -60,6 +60,20 @@
     word-wrap: break-word;
   }
   
+  .note button {
+    position: relative;
+    float: right;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
   form.create-note {
     position: relative;
     width: 480px;
